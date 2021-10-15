@@ -8,7 +8,14 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": {
+    "type": "git",
+    "directory": "packages/pancake-uikit",
+    "url": "https://github.com/suid-swap/pancake-toolkit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
