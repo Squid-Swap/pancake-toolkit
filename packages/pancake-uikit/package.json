@@ -1,6 +1,6 @@
 {
   "name": "@pancakeswap/uikit",
-  "version": "0.55.0",
+  "version": "0.55.1",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -56,8 +56,5 @@
     "lodash": "^4.17.20",
     "react-popper": "^2.2.5",
     "styled-system": "^5.1.5"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

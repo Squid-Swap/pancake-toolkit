@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.1 (2021-10-15)
+
+**Note:** Version bump only for package @squid-swap/eslint-config-pancake
+
+
+
+
+
 # [1.2.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@pancakeswap/eslint-config-pancake@1.1.0...@pancakeswap/eslint-config-pancake@1.2.0) (2021-07-09)
 
 
