@@ -11,7 +11,7 @@
   "repository": {
     "type": "git",
     "directory": "packages/pancake-uikit",
-    "url": "https://github.com/suid-swap/pancake-toolkit"
+    "url": "https://github.com/squid-swap/pancake-toolkit"
   },
   "publishConfig": {
     "access": "public"
