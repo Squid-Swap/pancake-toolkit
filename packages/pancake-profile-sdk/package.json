@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "directory": "packages/profile-sdk",
-    "url": "https://github.com/autoshark-finance/pancake-toolkit"
+    "url": "https://github.com/squid-swap/pancake-toolkit"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
