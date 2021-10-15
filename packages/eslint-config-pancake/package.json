@@ -1,12 +1,19 @@
 {
-  "name": "@pancakeswap/eslint-config-pancake",
+  "name": "@squid-swap/eslint-config-pancake",
   "version": "1.2.0",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
+  "repository": {
+    "type": "git",
+    "directory": "packages/eslint-config-pancake",
+    "url": "https://github.com/squid-swap/pancake-toolkit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
