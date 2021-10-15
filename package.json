@@ -21,7 +21,7 @@
     "lint": "lerna run lint",
     "format:check": "lerna run format:check",
     "storybook:build": "lerna run storybook:build",
-    "release": "yarn build && yarn lerna publish",
+    "release": "yarn build && yarn lerna publish patch --yes --no-verify-access",
     "prepare": "husky install"
   },
   "devDependencies": {
