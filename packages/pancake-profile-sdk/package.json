@@ -1,11 +1,18 @@
 {
-  "name": "@pancakeswap/profile-sdk",
+  "name": "@squid-swap/profile-sdk",
   "version": "0.3.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk",
+  "repository": {
+    "type": "git",
+    "directory": "packages/profile-sdk",
+    "url": "https://github.com/autoshark-finance/pancake-toolkit"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "start": "yarn build && node ./dist",
