@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/uikit",
+  "name": "@squid-swap/uikit",
   "version": "0.55.3",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
