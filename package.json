@@ -2,7 +2,7 @@
   "name": "@squid-swap/toolkit",
   "version": "1.0.0",
   "description": "Pancake frontend packages",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
