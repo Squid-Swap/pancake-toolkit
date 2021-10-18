@@ -21,7 +21,7 @@ export const StyledTooltip = styled.div`
   padding: 16px;
   font-size: 16px;
   line-height: 130%;
-  border-radius: 16px;
+  border-radius: 6px;
   max-width: 320px;
   z-index: 101;
   background: ${({ theme }) => theme.tooltip.background};

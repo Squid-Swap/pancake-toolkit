@@ -479,7 +479,7 @@ exports[`renders correctly 1`] = `
 .c9 {
   background-color: #FFFFFF;
   border: 1px solid #E7E3EB;
-  border-radius: 16px;
+  border-radius: 6px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;
@@ -491,7 +491,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c15 {
-  border-radius: 16px;
+  border-radius: 6px;
   padding: 0 8px;
   border: 2px solid;
   border-color: #ED4B9E;
@@ -501,7 +501,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c19 {
-  border-radius: 16px;
+  border-radius: 6px;
   padding: 0 8px;
   border: 2px solid;
   border-color: #FFB237;
@@ -709,7 +709,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -767,7 +767,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -826,7 +826,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -883,7 +883,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -985,7 +985,7 @@ exports[`renders correctly 1`] = `
 
 .c8:hover {
   background: #EFF4F5;
-  border-radius: 16px;
+  border-radius: 6px;
 }
 
 .c13 {
@@ -1016,7 +1016,7 @@ exports[`renders correctly 1`] = `
 
 .c13:hover {
   background: #EFF4F5;
-  border-radius: 16px;
+  border-radius: 6px;
 }
 
 .c16 {
@@ -1047,7 +1047,7 @@ exports[`renders correctly 1`] = `
 
 .c16:hover {
   background: #EFF4F5;
-  border-radius: 16px;
+  border-radius: 6px;
 }
 
 .c40 {

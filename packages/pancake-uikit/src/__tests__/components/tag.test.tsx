@@ -11,7 +11,7 @@ it("renders correctly", () => {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      border-radius: 16px;
+      border-radius: 6px;
       color: #ffffff;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;

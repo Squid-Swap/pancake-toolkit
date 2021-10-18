@@ -11,7 +11,7 @@ it("renders correctly", () => {
       .c0 {
       background-color: #eeeaf4;
       border: 0;
-      border-radius: 16px;
+      border-radius: 6px;
       box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,0.1);
       color: #280D5F;
       display: block;

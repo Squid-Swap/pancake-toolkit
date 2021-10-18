@@ -16,7 +16,7 @@ it("renders correctly", () => {
     <DocumentFragment>
       .c0 {
       background-color: #EFF4F5;
-      border-radius: 16px;
+      border-radius: 6px;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;
@@ -48,7 +48,7 @@ it("renders correctly", () => {
       -ms-flex-align: center;
       align-items: center;
       border: 0;
-      border-radius: 16px;
+      border-radius: 6px;
       box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;

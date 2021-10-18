@@ -11,7 +11,7 @@ import { UserMenuItem } from "./styles";
 export const StyledUserMenu = styled(Flex)`
   align-items: center;
   background-color: ${({ theme }) => theme.colors.tertiary};
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   display: inline-flex;
@@ -40,7 +40,7 @@ export const LabelText = styled.div`
 const Menu = styled.div<{ isOpen: boolean }>`
   background-color: ${({ theme }) => theme.card.background};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 6px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;
