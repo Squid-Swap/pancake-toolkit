@@ -62,13 +62,13 @@ export const Input = styled.input<InputProps>`
     left: ${getScale("checkedLeft")};
   }
 
-  &:focus + ${Handle} {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
-  }
+  // &:focus + ${Handle} {
+  //   box-shadow: ${({ theme }) => theme.shadows.focus};
+  // }
 
-  &:hover + ${Handle}:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
-  }
+  // &:hover + ${Handle}:not(:disabled):not(:checked) {
+  //   box-shadow: ${({ theme }) => theme.shadows.focus};
+  // }
 `;
 
 const StyledToggle = styled.div<StyleToggleProps>`

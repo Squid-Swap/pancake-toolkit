@@ -34,9 +34,9 @@ export const shadows = {
 const spacing: Spacing = [0, 4, 8, 16, 24, 32, 48, 64];
 
 const radii = {
-  small: "4px",
-  default: "8px",
-  card: "8px",
+  small: "6px",
+  default: "6px",
+  card: "6px",
   circle: "50%",
 };
 
