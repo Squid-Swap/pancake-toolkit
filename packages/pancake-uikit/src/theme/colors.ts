@@ -8,6 +8,7 @@ export const baseColors = {
   secondary: "#000000",
   success: "#196352",
   warning: "#FFB237",
+  black: "#000",
 };
 
 export const additionalColors = {
@@ -35,7 +36,7 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#280D5F",
   textDisabled: "#BDC2C4",
-  textSubtle: "#7A6EAA",
+  textSubtle: "#777777",
   disabled: "#E9EAEB",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
