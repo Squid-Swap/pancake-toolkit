@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
-import { Image } from "../../..";
+// import { Image } from "../../..";
 import Flex from "../../../components/Box/Flex";
 import { LogoWithTextIcon } from "../../../components/Svg";
 
 interface Props {
-  logoUrl: string;
   href: string;
 }
 
@@ -44,12 +43,12 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const Logo: React.FC<Props> = ({ logoUrl, href }) => {
+const Logo: React.FC<Props> = ({ href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
       {/* <LogoIcon className="mobile-icon" /> */}
-      <Image width="32px" height="auto" src={logoUrl} alt="logo" className="mobile-icon" />
+      {/* <Image width="32px" height="auto" src={logoUrl} alt="logo" className="mobile-icon" /> */}
       <LogoWithTextIcon className="desktop-icon" />
     </>
   );

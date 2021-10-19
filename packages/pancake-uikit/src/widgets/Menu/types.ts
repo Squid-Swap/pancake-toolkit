@@ -16,7 +16,6 @@ export interface LinkStatus {
 }
 
 export interface NavProps {
-  logoUrl: string;
   userMenu?: ReactElement;
   globalMenu?: ReactElement;
   links: Array<MenuItemsType>;
