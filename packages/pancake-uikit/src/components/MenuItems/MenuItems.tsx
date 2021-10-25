@@ -19,7 +19,7 @@ const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSub
               isActive={isActive}
               statusColor={statusColor}
             >
-              {label || <IconComponent iconName={icon} color={isActive ? "secondary" : "textSubtle"} />}
+              {label || <IconComponent iconName={icon} color={isActive ? "primary" : "textSubtle"} />}
             </MenuItem>
           </DropdownMenu>
         );
