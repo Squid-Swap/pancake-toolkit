@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.20 (2021-10-25)
+
+
+### Bug Fixes
+
+* remove logo ([d0523e8](https://github.com/squid-swap/pancake-toolkit/commit/d0523e8f8c2c5952e4cb96d32af1b96648c4374f))
+
+
+
+
+
 ## 1.2.19 (2021-10-25)
 
 **Note:** Version bump only for package @squid-swap/eslint-config-pancake
