@@ -31,7 +31,7 @@ const CakePrice: React.FC<Props> = ({ cakePriceUsd, tokenLogo, color = "textSubt
       target="_blank"
     >
       {/* <PancakeRoundIcon width="24px" mr="8px" /> */}
-      {tokenLogo}
+      {/* {tokenLogo} */}
       <Text color={color} bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
