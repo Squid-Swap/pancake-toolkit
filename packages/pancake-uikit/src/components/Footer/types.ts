@@ -1,3 +1,4 @@
+import { ReactElement } from "react";
 import { Language } from "../LangSelector/types";
 import { FlexProps } from "../Box";
 
@@ -7,6 +8,7 @@ export type FooterLinkType = {
 };
 
 export type FooterProps = {
+  footerLogo?: ReactElement
   items: FooterLinkType[];
   buyCakeLabel: string;
   isDark: boolean;
