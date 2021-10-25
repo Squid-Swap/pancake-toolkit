@@ -27,7 +27,6 @@ const MenuItem: React.FC<FooterProps> = ({
   setLang,
   cakePriceUsd,
   buyCakeLabel,
-  tokenLogo,
   ...props
 }) => {
   return (
@@ -83,7 +82,7 @@ const MenuItem: React.FC<FooterProps> = ({
           </Flex> */}
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
-              <CakePrice cakePriceUsd={cakePriceUsd} tokenLogo={tokenLogo} color={darkColors.textSubtle as keyof Colors} />
+              <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} />
             </Box>
             <Button
               as="a"

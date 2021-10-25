@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import styled from "styled-components";
 // import { PancakeRoundIcon } from "../Svg";
 import Text from "../Text/Text";
@@ -6,7 +6,6 @@ import Skeleton from "../Skeleton/Skeleton";
 import { Colors } from "../../theme";
 
 export interface Props {
-  tokenLogo?: ReactElement;
   color?: keyof Colors;
   cakePriceUsd?: number;
 }
@@ -24,7 +23,7 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePrice: React.FC<Props> = ({ cakePriceUsd, tokenLogo, color = "textSubtle" }) => {
+const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
   return cakePriceUsd ? (
     <PriceLink
       href="https://squidstake.com/swap?outputCurrency=0xAE61e7dc989718E700C046a2483e93513eDCA484"
