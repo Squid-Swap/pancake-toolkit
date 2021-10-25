@@ -86,7 +86,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="swap?outputCurrency=0xAE61e7dc989718E700C046a2483e93513eDCA484"
+              href="https://squidstake.com/swap?outputCurrency=0xAE61e7dc989718E700C046a2483e93513eDCA484"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
