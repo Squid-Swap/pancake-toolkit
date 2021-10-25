@@ -11,11 +11,33 @@ const MenuItem: React.FC<MenuItemProps> = ({
   statusColor,
   ...props
 }) => {
+  const isAbsoluteUrl = href.startsWith("http");
   return (
     <StyledMenuItemContainer $isActive={isActive} $variant={variant}>
-      <StyledMenuItem as={Link} to={href} $isActive={isActive} $variant={variant} $statusColor={statusColor} {...props}>
-        {children}
-      </StyledMenuItem>
+      {isAbsoluteUrl ? (
+        <StyledMenuItem
+          as="a"
+          target="_blank"
+          href={href}
+          $isActive={isActive}
+          $variant={variant}
+          $statusColor={statusColor}
+          {...props}
+        >
+          {children}
+        </StyledMenuItem>
+      ) : (
+        <StyledMenuItem
+          as={Link}
+          to={href}
+          $isActive={isActive}
+          $variant={variant}
+          $statusColor={statusColor}
+          {...props}
+        >
+          {children}
+        </StyledMenuItem>
+      )}
     </StyledMenuItemContainer>
   );
 };
