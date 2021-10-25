@@ -18,6 +18,7 @@ export interface LinkStatus {
 export interface NavProps {
   userMenu?: ReactElement;
   globalMenu?: ReactElement;
+  innerLogo?: ReactElement;
   links: Array<MenuItemsType>;
   subLinks: Array<SubMenuItemsType>;
   footerLinks: Array<FooterLinkType>;
