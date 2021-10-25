@@ -54,6 +54,7 @@ const Menu: React.FC<NavProps> = ({
   userMenu,
   globalMenu,
   innerLogo,
+  footerLogo,
   isDark,
   toggleTheme,
   currentLang,
@@ -136,6 +137,7 @@ const Menu: React.FC<NavProps> = ({
         <Inner isPushed={false} showMenu={showMenu}>
           {children}
           <Footer
+            footerLogo={footerLogo}
             items={footerLinks}
             isDark={isDark}
             toggleTheme={toggleTheme}

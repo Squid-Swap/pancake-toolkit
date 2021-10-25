@@ -19,6 +19,7 @@ export interface NavProps {
   userMenu?: ReactElement;
   globalMenu?: ReactElement;
   innerLogo?: ReactElement;
+  footerLogo?: ReactElement;
   links: Array<MenuItemsType>;
   subLinks: Array<SubMenuItemsType>;
   footerLinks: Array<FooterLinkType>;
