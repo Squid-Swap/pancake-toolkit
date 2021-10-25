@@ -1,6 +1,6 @@
 {
   "name": "@squid-swap/token-lists",
-  "version": "2.18.24",
+  "version": "2.18.25",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
