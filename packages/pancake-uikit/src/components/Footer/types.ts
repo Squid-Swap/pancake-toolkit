@@ -8,7 +8,7 @@ export type FooterLinkType = {
 };
 
 export type FooterProps = {
-  footerLogo?: ReactElement
+  footerLogo?: ReactElement;
   items: FooterLinkType[];
   buyCakeLabel: string;
   isDark: boolean;
