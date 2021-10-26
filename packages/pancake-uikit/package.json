@@ -1,6 +1,6 @@
 {
   "name": "@squid-swap/uikit",
-  "version": "0.55.28",
+  "version": "0.55.29",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
