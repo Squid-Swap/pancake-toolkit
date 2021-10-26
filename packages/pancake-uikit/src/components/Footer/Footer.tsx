@@ -64,12 +64,12 @@ const MenuItem: React.FC<FooterProps> = ({
           {footerLogo && <Box display={["none", null, "block"]}>{footerLogo}</Box>}
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
-        <StyledToolsContainer
+        {/* <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
-          {/* <Flex order={[2, null, 1]} alignItems="center">
+          <Flex order={[2, null, 1]} alignItems="center">
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
             <LangSelector
               currentLang={currentLang}
@@ -78,7 +78,7 @@ const MenuItem: React.FC<FooterProps> = ({
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
             />
-          </Flex> */}
+          </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
               <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} />
@@ -93,7 +93,7 @@ const MenuItem: React.FC<FooterProps> = ({
               {buyCakeLabel}
             </Button>
           </Flex>
-        </StyledToolsContainer>
+        </StyledToolsContainer> */}
       </Flex>
     </StyledFooter>
   );
