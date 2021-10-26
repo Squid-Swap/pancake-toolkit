@@ -2,7 +2,7 @@ import * as React from "react";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
 
-const Icon: React.FC<SvgProps & { fillColor?: string }> = ({ fillColor = "#B8ADD2", ...props }) => {
+const Icon: React.FC<SvgProps & { fillColor?: string }> = ({ fillColor = "#ffffff", ...props }) => {
   return (
     <Svg viewBox="0 0 18 15" {...props}>
       <path
