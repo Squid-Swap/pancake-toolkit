@@ -1,6 +1,6 @@
 {
   "name": "@squid-swap/eslint-config-pancake",
-  "version": "1.2.30",
+  "version": "1.2.31",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
   "files": [
