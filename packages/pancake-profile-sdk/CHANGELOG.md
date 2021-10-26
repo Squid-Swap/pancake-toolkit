@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.28 (2021-10-26)
+
+
+### Bug Fixes
+
+* format ([c6b8411](https://github.com/squid-swap/pancake-toolkit/commit/c6b84117abb3899f0b05c5ca02df18e19eddd4dc))
+
+
+
+
+
 ## 0.3.27 (2021-10-25)
 
 **Note:** Version bump only for package @squid-swap/profile-sdk
