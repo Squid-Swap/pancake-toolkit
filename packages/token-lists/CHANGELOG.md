@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.18.39 (2021-10-31)
+
+
+### Bug Fixes
+
+* skeleton ([f73a827](https://github.com/squid-swap/pancake-toolkit/commit/f73a827168e5b550de37acf042a142b898f9e627))
+
+
+
+
+
 ## 2.18.38 (2021-10-26)
 
 **Note:** Version bump only for package @squid-swap/token-lists
