@@ -85,11 +85,11 @@ const ResetCSS = createGlobalStyle`
   }
   ::-webkit-scrollbar-thumb {
     background: #000000; 
-    border-radius: 8px;
+    border-radius: 6px;
   }
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
-    border-radius: 10px;
+    border-radius: 6px;
   }
 
   /* Slider */ 

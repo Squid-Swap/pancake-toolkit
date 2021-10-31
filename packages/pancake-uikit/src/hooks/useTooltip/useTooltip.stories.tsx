@@ -17,7 +17,7 @@ const ReferenceElement = styled.div`
   background-color: #1fc7d4;
   width: 160px;
   height: 160px;
-  border-radius: 8px;
+  border-radius: 6px;
 `;
 
 const Container = styled.div`
@@ -32,7 +32,7 @@ const ExpandableCard = styled.div`
   margin: 0 auto;
   padding: 0 10px;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: rgba(70, 70, 80, 0.2) 0px 7px 29px 0px;
 `;
 

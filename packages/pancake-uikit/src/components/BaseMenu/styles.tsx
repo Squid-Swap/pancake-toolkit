@@ -3,7 +3,7 @@ import { Box, Flex } from "../Box";
 
 export const InlineMenuContainer = styled(Box)`
   background-color: ${({ theme }) => theme.colors.backgroundAlt};
-  border-radius: ${({ theme }) => theme.radii.card};
+  border-radius: 6px;
   box-shadow: ${({ theme }) => theme.shadows.tooltip};
 `;
 
@@ -12,7 +12,7 @@ export const SubMenuContainer = styled(Flex)`
   overflow: hidden;
   min-width: 136px;
   background: ${({ theme }) => theme.colors.input};
-  border-radius: ${({ theme }) => theme.radii.default};
+  border-radius: 6px;
   border: ${({ theme }) => `1px solid ${theme.colors.inputSecondary}`};
 `;
 

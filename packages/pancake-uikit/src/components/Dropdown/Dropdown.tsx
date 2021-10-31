@@ -30,7 +30,7 @@ const DropdownContent = styled.div<{ position: Position }>`
   max-height: 400px;
   overflow-y: auto;
   z-index: ${({ theme }) => theme.zIndices.dropdown};
-  border-radius: ${({ theme }) => theme.radii.small};
+  border-radius: 6px;
 `;
 
 const Container = styled.div`

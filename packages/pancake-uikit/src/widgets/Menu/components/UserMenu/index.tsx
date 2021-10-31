@@ -56,11 +56,11 @@ const Menu = styled.div<{ isOpen: boolean }>`
   `}
 
   ${UserMenuItem}:first-child {
-    border-radius: 8px 8px 0 0;
+    border-radius: 6px 6px 0 0;
   }
 
   ${UserMenuItem}:last-child {
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 6px 6px;
   }
 `;
 
