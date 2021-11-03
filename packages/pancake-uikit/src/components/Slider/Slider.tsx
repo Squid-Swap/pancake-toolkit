@@ -12,6 +12,8 @@ import {
 import SliderProps from "./types";
 
 const Slider: React.FC<SliderProps> = ({
+  thumbButtImgSrc,
+  thumbImgSrc,
   name,
   min,
   max,
@@ -42,11 +44,12 @@ const Slider: React.FC<SliderProps> = ({
   const displayValueLabel = isMax ? "MAX" : valueLabel;
   return (
     <Box position="relative" height="48px" {...props}>
-      <BunnyButt disabled={disabled} />
+      <BunnyButt imgSrc={thumbButtImgSrc} disabled={disabled} />
       <BunnySlider>
         <BarBackground disabled={disabled} />
         <BarProgress style={{ width: progressWidth }} disabled={disabled} />
         <StyledInput
+          imgSrc={thumbImgSrc}
           name={name}
           type="range"
           min={min}
