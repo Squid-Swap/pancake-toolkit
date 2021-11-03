@@ -67,7 +67,7 @@ const getbuttImage = ({ imgSrc }: DisabledImageProp) => `
 `;
 
 export const BunnyButt = styled.div<DisabledImageProp>`
-  background: ${getbuttImage};
+  background-image: ${getbuttImage};
   background-size: contain;
   background-position: bottom;
   height: 32px;
