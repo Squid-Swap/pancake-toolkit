@@ -102,7 +102,7 @@ export const BarBackground = styled.div<DisabledProp>`
   background-color: ${({ theme, disabled }) => theme.colors[disabled ? "textDisabled" : "inputSecondary"]};
   height: 2px;
   position: absolute;
-  top: 18px;
+  top: 11px;
   width: 100%;
 `;
 
@@ -111,5 +111,5 @@ export const BarProgress = styled.div<DisabledProp>`
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   height: 10px;
   position: absolute;
-  top: 18px;
+  top: 11px;
 `;
