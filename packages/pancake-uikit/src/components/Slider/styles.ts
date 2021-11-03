@@ -30,8 +30,7 @@ const getCursorStyle = ({ disabled = false }: DisabledProp) => {
 const getBaseThumbStyles = ({ imgSrc, disabled }: StyledInputProps) => `
   -webkit-appearance: none;
   background-image: url(${imgSrc});
-  background-size: contain;
-  background-position: bottom;
+  background-size: cover;
   background-color: transparent;
   border: 0;
   cursor: ${getCursorStyle};
@@ -45,6 +44,10 @@ const getBaseThumbStyles = ({ imgSrc, disabled }: StyledInputProps) => `
     transform: ${disabled ? "scale(1) translate(-2px, -2px)" : "scale(1.1) translate(-3px, -3px)"};
   }
 `;
+
+const getbuttImage = ( { imgSrc }: DisabledImageProp) => `
+  url(${imgSrc}) no-repeat
+`
 
 export const SliderLabelContainer = styled.div`
   bottom: 0;
@@ -62,14 +65,9 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
   min-width: 24px; // Slider thumb size
 `;
 
-const getbuttImage = ({ imgSrc }: DisabledImageProp) => `
-  url(${imgSrc})
-`;
-
 export const BunnyButt = styled.div<DisabledImageProp>`
-  background-image: ${getbuttImage};
-  background-size: contain;
-  background-position: bottom;
+  background: ${getbuttImage};
+  background-size: cover;
   height: 32px;
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   position: absolute;
