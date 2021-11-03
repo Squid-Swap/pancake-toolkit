@@ -63,7 +63,7 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
 `;
 
 const getbuttImage = ({ imgSrc }: DisabledImageProp) => `
-  url(${imgSrc}) no-repeat
+  url(${imgSrc})
 `;
 
 export const BunnyButt = styled.div<DisabledImageProp>`
