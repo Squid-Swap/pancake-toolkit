@@ -1,6 +1,6 @@
 {
   "name": "@squid-swap/profile-sdk",
-  "version": "0.3.37",
+  "version": "0.3.38",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
