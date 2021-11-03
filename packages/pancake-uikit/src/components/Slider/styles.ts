@@ -30,6 +30,8 @@ const getCursorStyle = ({ disabled = false }: DisabledProp) => {
 const getBaseThumbStyles = ({ imgSrc, disabled }: StyledInputProps) => `
   -webkit-appearance: none;
   background-image: url(${imgSrc});
+  background-size: contain;
+  background-position: bottom;
   background-color: transparent;
   border: 0;
   cursor: ${getCursorStyle};
@@ -66,6 +68,8 @@ const getbuttImage = ({ imgSrc }: DisabledImageProp) => `
 
 export const BunnyButt = styled.div<DisabledImageProp>`
   background: ${getbuttImage};
+  background-size: contain;
+  background-position: bottom;
   height: 32px;
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   position: absolute;
