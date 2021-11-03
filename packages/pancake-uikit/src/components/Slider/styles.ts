@@ -45,9 +45,9 @@ const getBaseThumbStyles = ({ imgSrc, disabled }: StyledInputProps) => `
   }
 `;
 
-const getbuttImage = ( { imgSrc }: DisabledImageProp) => `
+const getbuttImage = ({ imgSrc }: DisabledImageProp) => `
   url(${imgSrc}) no-repeat
-`
+`;
 
 export const SliderLabelContainer = styled.div`
   bottom: 0;
