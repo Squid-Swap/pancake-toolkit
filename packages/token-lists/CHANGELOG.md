@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.18.47 (2021-11-05)
+
+**Note:** Version bump only for package @squid-swap/token-lists
+
+
+
+
+
 ## 2.18.46 (2021-11-03)
 
 **Note:** Version bump only for package @squid-swap/token-lists
