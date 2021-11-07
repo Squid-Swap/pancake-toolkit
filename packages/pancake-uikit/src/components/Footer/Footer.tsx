@@ -11,7 +11,7 @@ import {
   StyledToolsContainer,
 } from "./styles";
 import { FooterProps } from "./types";
-// import { ThemeSwitcher } from "../ThemeSwitcher";
+import { ThemeSwitcher } from "../ThemeSwitcher";
 // import LangSelector from "../LangSelector/LangSelector";
 import CakePrice from "../CakePrice/CakePrice";
 import { ArrowForwardIcon } from "../Svg";
@@ -64,20 +64,20 @@ const MenuItem: React.FC<FooterProps> = ({
           {footerLogo && <Box display={["none", null, "block"]}>{footerLogo}</Box>}
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
-        {/* <StyledToolsContainer
+        <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
           <Flex order={[2, null, 1]} alignItems="center">
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-            <LangSelector
+            {/* <LangSelector
               currentLang={currentLang}
               langs={langs}
               setLang={setLang}
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
-            />
+            /> */}
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
@@ -93,7 +93,7 @@ const MenuItem: React.FC<FooterProps> = ({
               {buyCakeLabel}
             </Button>
           </Flex>
-        </StyledToolsContainer> */}
+        </StyledToolsContainer>
       </Flex>
     </StyledFooter>
   );
