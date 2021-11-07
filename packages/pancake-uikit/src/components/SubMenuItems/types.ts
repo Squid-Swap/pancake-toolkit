@@ -7,5 +7,6 @@ export type SubMenuItemsType = {
 
 export interface SubMenuItemsProps extends FlexProps {
   items: SubMenuItemsType[];
+  isDark: boolean;
   activeItem?: string;
 }
