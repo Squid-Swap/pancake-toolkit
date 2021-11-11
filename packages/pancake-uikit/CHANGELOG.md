@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.55.46 (2021-11-11)
+
+**Note:** Version bump only for package @squid-swap/uikit
+
+
+
+
+
 ## 0.55.45 (2021-11-07)
 
 **Note:** Version bump only for package @squid-swap/uikit
